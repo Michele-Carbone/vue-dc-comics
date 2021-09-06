@@ -31,4 +31,14 @@ export default {
 body {
   font-family: "Kurale", serif;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
 </style>
