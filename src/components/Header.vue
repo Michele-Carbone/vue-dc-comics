@@ -3,7 +3,7 @@
     <div id="logo" class="col">
       <img src="@/assets/img/dc-logo.png" alt="" />
     </div>
-    <nav class="col">
+    <nav class="nav">
       <ul>
         <li><a href="#">CHARACTERS</a></li>
         <li><a href="#" class="active">COMICS</a></li>
@@ -27,11 +27,6 @@ export default {
 </script>
 
 <style>
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 #log {
   margin-top: 20px;
   display: flex;
@@ -39,27 +34,24 @@ export default {
   align-items: center;
 }
 
-ul {
+nav ul {
   display: flex;
   padding: 0;
   justify-content: center;
 }
 
-ul li {
+nav ul li a {
+  padding: 15px 10px;
+}
+
+nav ul li {
   list-style-type: none;
   font-weight: bold;
 }
 
-ul li a {
-  padding: 15px;
-}
-
-ul li a:hover,
-ul li a.active {
-  color: blue;
-}
-
-.col {
-  float: left;
+nav ul li a:hover,
+nav ul li a.active {
+  color: dodgerblue;
+  border-bottom: 2px solid dodgerblue;
 }
 </style>
