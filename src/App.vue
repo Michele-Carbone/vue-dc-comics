@@ -24,6 +24,11 @@ export default {
 </script>
 
 <style>
+/*
+per poterlo usade devo scrivere lang="scss" in style
+@import "@/assets/scss/_generics.scss";
+*/
+
 /*GENERICS*/
 * {
   margin: 0;
@@ -45,11 +50,11 @@ body {
   font-family: "Kurale", serif;
 }
 /*
-img {
-  max-width: 100%;
-  height: auto;
-}
-*/
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  */
 a {
   text-decoration: none;
   color: black;

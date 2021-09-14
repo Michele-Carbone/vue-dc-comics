@@ -1,0 +1,15 @@
+//invece di lasciare tutti in APP possiamo scriverlo separatamente e portarlo dopo in App suddividendo il tutto in base a quello che ci serve
+
+/*
+possiamo creare le variabili con SCSS
+es:
+$Nome della variabile: nome del tag;
+$link-color: red;
+
+Questa variabile la possiamo riutilizzare ovunque purche' il file in questo caso _generics.scss venga importato nei componenti.
+con questa dicitura nello style     @import Nome del file "@/assets/scss/_generics.scss";
+Se in una componente secondaria nello style e' presente lo scoped non ereditera' nessuna variabile, ma siamo costretti a importare nella componente il file della variabile che ci interessa
+*/
+
+
+

@@ -105,4 +105,26 @@ nav ul li a.active {
   color: dodgerblue;
   border-bottom: 2px solid dodgerblue;
 }
+
+/*//verificare l istallazione di scss
+nav{
+  ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    li {
+      list-style-type: none;
+      font-weight: bold;
+      a {
+        padding: 15px 10px;
+        &:hover,    //uso la & al posto della a per innestare
+        &.active {
+          color: dodgerblue;
+          border-bottom: 2px solid dodgerblue;
+          }
+        }
+    }
+  }
+}
+*/
 </style>
