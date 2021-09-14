@@ -71,6 +71,7 @@ export default {
 
 h3 {
   color: white;
+  margin: 1rem 0rem;
 }
 
 #footer ul li {
